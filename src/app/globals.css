@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #faf6f0;
+  --color-paper-dark: #f0ebe3;
+  --color-ink: #2c2c2c;
+  --color-crimson: #b91c1c;
+  --color-crimson-light: #fef2f2;
+  --color-gold: #b8860b;
+  --color-jade: #166534;
+  --color-inkwash: #e5e0d8;
+
+  --font-chinese: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-songti: 'STSong', 'SimSun', 'Noto Serif SC', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-chinese);
+}
