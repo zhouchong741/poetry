@@ -13,7 +13,7 @@ export default function PoemCard({ poem }: { poem: Poem }) {
       <div className="mb-2 flex flex-wrap items-center gap-2">
         <h3 className="text-base font-semibold text-ink">{poem.title}</h3>
         <span className="text-xs text-zinc-400">
-          {poem.author} · {poem.dynasty}
+          {poem.dynasty} · {poem.author}
         </span>
         <div className="flex gap-1">
           <Badge variant="type">{poem.type}</Badge>
