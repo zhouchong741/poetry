@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { getAllPoems, getDynasties, getGrades } from '@/lib/poems';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://zhouchong741.github.io/poetry';
 
