@@ -28,7 +28,8 @@
     "keywords": [
       "动物",
       "咏物"
-    ]
+    ],
+    "image": "/poetry/images/poems/yong-e.webp"
   },
   {
     "id": "chun-xiao",
@@ -63,7 +64,8 @@
     "keywords": [
       "春天",
       "清晨"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-xiao.webp"
   },
   {
     "id": "jing-ye-si",
@@ -94,7 +96,8 @@
     "keywords": [
       "思乡",
       "月亮"
-    ]
+    ],
+    "image": "/poetry/images/poems/jing-ye-si.webp"
   },
   {
     "id": "min-nong",
@@ -129,7 +132,8 @@
     "keywords": [
       "劳动",
       "节俭"
-    ]
+    ],
+    "image": "/poetry/images/poems/min-nong.webp"
   },
   {
     "id": "chi-shang",
@@ -164,7 +168,8 @@
     "keywords": [
       "儿童",
       "夏日"
-    ]
+    ],
+    "image": "/poetry/images/poems/chi-shang.webp"
   },
   {
     "id": "deng-guan-que-lou",
@@ -199,7 +204,8 @@
     "keywords": [
       "哲理",
       "登高"
-    ]
+    ],
+    "image": "/poetry/images/poems/deng-guan-que-lou.webp"
   },
   {
     "id": "wang-lu-shan-pu-bu",
@@ -230,7 +236,8 @@
     "keywords": [
       "山水",
       "瀑布"
-    ]
+    ],
+    "image": "/poetry/images/poems/wang-lu-shan-pu-bu.webp"
   },
   {
     "id": "yong-liu",
@@ -265,7 +272,8 @@
     "keywords": [
       "春天",
       "咏物"
-    ]
+    ],
+    "image": "/poetry/images/poems/yong-liu.webp"
   },
   {
     "id": "shan-xing",
@@ -300,7 +308,8 @@
     "keywords": [
       "秋天",
       "枫叶"
-    ]
+    ],
+    "image": "/poetry/images/poems/shan-xing.webp"
   },
   {
     "id": "jue-ju-liang-ge-huang-li",
@@ -339,7 +348,8 @@
     "keywords": [
       "春天",
       "景色"
-    ]
+    ],
+    "image": "/poetry/images/poems/jue-ju-liang-ge-huang-li.webp"
   },
   {
     "id": "wang-tian-men-shan",
@@ -374,7 +384,8 @@
     "keywords": [
       "山水",
       "长江"
-    ]
+    ],
+    "image": "/poetry/images/poems/wang-tian-men-shan.webp"
   },
   {
     "id": "yin-hu-shang-chu-qing-hou-yu",
@@ -409,7 +420,8 @@
     "keywords": [
       "西湖",
       "山水"
-    ]
+    ],
+    "image": "/poetry/images/poems/yin-hu-shang-chu-qing-hou-yu.webp"
   },
   {
     "id": "ti-xi-lin-bi",
@@ -444,7 +456,8 @@
     "keywords": [
       "哲理",
       "庐山"
-    ]
+    ],
+    "image": "/poetry/images/poems/ti-xi-lin-bi.webp"
   },
   {
     "id": "chu-sai",
@@ -483,7 +496,8 @@
     "keywords": [
       "边塞",
       "爱国"
-    ]
+    ],
+    "image": "/poetry/images/poems/chu-sai.webp"
   },
   {
     "id": "shi-er",
@@ -522,7 +536,8 @@
     "keywords": [
       "爱国",
       "遗嘱"
-    ]
+    ],
+    "image": "/poetry/images/poems/shi-er.webp"
   },
   {
     "id": "feng-qiao-ye-bo",
@@ -561,7 +576,8 @@
     "keywords": [
       "秋夜",
       "愁思"
-    ]
+    ],
+    "image": "/poetry/images/poems/feng-qiao-ye-bo.webp"
   },
   {
     "id": "su-jian-de-jiang",
@@ -596,7 +612,8 @@
     "keywords": [
       "羁旅",
       "江景"
-    ]
+    ],
+    "image": "/poetry/images/poems/su-jian-de-jiang.webp"
   },
   {
     "id": "chun-ri",
@@ -635,7 +652,8 @@
     "keywords": [
       "春天",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-ri.webp"
   },
   {
     "id": "guan-cang-hai",
@@ -676,7 +694,8 @@
     "keywords": [
       "大海",
       "壮志"
-    ]
+    ],
+    "image": "/poetry/images/poems/guan-cang-hai.webp"
   },
   {
     "id": "tian-jing-sha-qiu-si",
@@ -712,7 +731,8 @@
     "keywords": [
       "秋思",
       "羁旅"
-    ]
+    ],
+    "image": "/poetry/images/poems/tian-jing-sha-qiu-si.webp"
   },
   {
     "id": "ci-bei-gu-shan-xia",
@@ -751,7 +771,8 @@
     "keywords": [
       "羁旅",
       "思乡"
-    ]
+    ],
+    "image": "/poetry/images/poems/ci-bei-gu-shan-xia.webp"
   },
   {
     "id": "huang-he-lou",
@@ -795,7 +816,8 @@
       "登临",
       "怀古",
       "愁思"
-    ]
+    ],
+    "image": "/poetry/images/poems/huang-he-lou.webp"
   },
   {
     "id": "shi-zhi-sai-shang",
@@ -834,7 +856,8 @@
     "keywords": [
       "边塞",
       "大漠"
-    ]
+    ],
+    "image": "/poetry/images/poems/shi-zhi-sai-shang.webp"
   },
   {
     "id": "xing-lu-nan",
@@ -880,7 +903,8 @@
     "keywords": [
       "励志",
       "壮志"
-    ]
+    ],
+    "image": "/poetry/images/poems/xing-lu-nan.webp"
   },
   {
     "id": "shui-diao-ge-tou",
@@ -925,7 +949,8 @@
       "中秋",
       "思亲",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/shui-diao-ge-tou.webp"
   },
   {
     "id": "duan-ge-xing",
@@ -980,7 +1005,8 @@
     "keywords": [
       "求贤",
       "壮志"
-    ]
+    ],
+    "image": "/poetry/images/poems/duan-ge-xing.webp"
   },
   {
     "id": "deng-gao",
@@ -1019,7 +1045,8 @@
     "keywords": [
       "悲秋",
       "登临"
-    ]
+    ],
+    "image": "/poetry/images/poems/deng-gao.webp"
   },
   {
     "id": "jin-se",
@@ -1066,7 +1093,8 @@
     "keywords": [
       "感怀",
       "爱情"
-    ]
+    ],
+    "image": "/poetry/images/poems/jin-se.webp"
   },
   {
     "id": "nian-nu-jiao-chi-bi-huai-gu",
@@ -1113,7 +1141,8 @@
     "keywords": [
       "怀古",
       "赤壁"
-    ]
+    ],
+    "image": "/poetry/images/poems/nian-nu-jiao-chi-bi-huai-gu.webp"
   },
   {
     "id": "pi-pa-xing",
@@ -1156,7 +1185,8 @@
     "keywords": [
       "音乐",
       "感怀"
-    ]
+    ],
+    "image": "/poetry/images/poems/pi-pa-xing.webp"
   },
   {
     "id": "chi-bi-fu",
@@ -1204,7 +1234,8 @@
       "赤壁",
       "哲理",
       "逍遥"
-    ]
+    ],
+    "image": "/poetry/images/poems/chi-bi-fu.webp"
   },
   {
     "id": "hua",
@@ -1226,7 +1257,8 @@
     "keywords": [
       "谜语",
       "山水"
-    ]
+    ],
+    "image": "/poetry/images/poems/hua.webp"
   },
   {
     "id": "gu-lang-yue-xing",
@@ -1257,7 +1289,8 @@
     "keywords": [
       "月亮",
       "想象"
-    ]
+    ],
+    "image": "/poetry/images/poems/gu-lang-yue-xing.webp"
   },
   {
     "id": "feng",
@@ -1288,7 +1321,8 @@
     "keywords": [
       "咏物",
       "自然"
-    ]
+    ],
+    "image": "/poetry/images/poems/feng.webp"
   },
   {
     "id": "zeng-wang-lun",
@@ -1319,7 +1353,8 @@
     "keywords": [
       "友情",
       "送别"
-    ]
+    ],
+    "image": "/poetry/images/poems/zeng-wang-lun.webp"
   },
   {
     "id": "xun-yin-zhe-bu-yu",
@@ -1354,7 +1389,8 @@
     "keywords": [
       "隐者",
       "问答"
-    ]
+    ],
+    "image": "/poetry/images/poems/xun-yin-zhe-bu-yu.webp"
   },
   {
     "id": "xiao-chi",
@@ -1389,7 +1425,8 @@
     "keywords": [
       "夏日",
       "池塘"
-    ]
+    ],
+    "image": "/poetry/images/poems/xiao-chi.webp"
   },
   {
     "id": "zeng-liu-jing-wen",
@@ -1420,7 +1457,8 @@
     "keywords": [
       "秋天",
       "勉励"
-    ]
+    ],
+    "image": "/poetry/images/poems/zeng-liu-jing-wen.webp"
   },
   {
     "id": "cun-ju",
@@ -1455,7 +1493,8 @@
     "keywords": [
       "春天",
       "儿童"
-    ]
+    ],
+    "image": "/poetry/images/poems/cun-ju.webp"
   },
   {
     "id": "xiao-chu-jing-ci-si-song-lin-zi-fang",
@@ -1490,7 +1529,8 @@
     "keywords": [
       "西湖",
       "夏日"
-    ]
+    ],
+    "image": "/poetry/images/poems/xiao-chu-jing-ci-si-song-lin-zi-fang.webp"
   },
   {
     "id": "fu-de-gu-yuan-cao-song-bie",
@@ -1521,7 +1561,8 @@
     "keywords": [
       "咏物",
       "生命力"
-    ]
+    ],
+    "image": "/poetry/images/poems/fu-de-gu-yuan-cao-song-bie.webp"
   },
   {
     "id": "ye-shu-suo-jian",
@@ -1560,7 +1601,8 @@
     "keywords": [
       "秋夜",
       "乡愁"
-    ]
+    ],
+    "image": "/poetry/images/poems/ye-shu-suo-jian.webp"
   },
   {
     "id": "jue-ju-chi-ri",
@@ -1595,7 +1637,8 @@
     "keywords": [
       "春天",
       "景色"
-    ]
+    ],
+    "image": "/poetry/images/poems/jue-ju-chi-ri.webp"
   },
   {
     "id": "yi-jiang-nan",
@@ -1627,7 +1670,8 @@
     "keywords": [
       "江南",
       "回忆"
-    ]
+    ],
+    "image": "/poetry/images/poems/yi-jiang-nan.webp"
   },
   {
     "id": "zao-fa-bai-di-cheng",
@@ -1662,7 +1706,8 @@
     "keywords": [
       "山水",
       "快意"
-    ]
+    ],
+    "image": "/poetry/images/poems/zao-fa-bai-di-cheng.webp"
   },
   {
     "id": "jiu-yue-jiu-ri-yi-shan-dong-xiong-di",
@@ -1697,7 +1742,8 @@
     "keywords": [
       "思亲",
       "重阳"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiu-yue-jiu-ri-yi-shan-dong-xiong-di.webp"
   },
   {
     "id": "you-shan-xi-cun",
@@ -1736,7 +1782,8 @@
     "keywords": [
       "乡村",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/you-shan-xi-cun.webp"
   },
   {
     "id": "mu-jiang-yin",
@@ -1771,7 +1818,8 @@
     "keywords": [
       "江景",
       "傍晚"
-    ]
+    ],
+    "image": "/poetry/images/poems/mu-jiang-yin.webp"
   },
   {
     "id": "liang-zhou-ci",
@@ -1806,7 +1854,8 @@
     "keywords": [
       "边塞",
       "豪迈"
-    ]
+    ],
+    "image": "/poetry/images/poems/liang-zhou-ci.webp"
   },
   {
     "id": "xia-ri-jue-ju",
@@ -1841,7 +1890,8 @@
     "keywords": [
       "爱国",
       "英雄"
-    ]
+    ],
+    "image": "/poetry/images/poems/xia-ri-jue-ju.webp"
   },
   {
     "id": "ti-lin-an-di",
@@ -1876,7 +1926,8 @@
     "keywords": [
       "爱国",
       "讽刺"
-    ]
+    ],
+    "image": "/poetry/images/poems/ti-lin-an-di.webp"
   },
   {
     "id": "ji-hai-za-shi",
@@ -1907,7 +1958,8 @@
     "keywords": [
       "奉献",
       "离愁"
-    ]
+    ],
+    "image": "/poetry/images/poems/ji-hai-za-shi.webp"
   },
   {
     "id": "shan-ju-qiu-ming",
@@ -1950,7 +2002,8 @@
     "keywords": [
       "山水",
       "秋景"
-    ]
+    ],
+    "image": "/poetry/images/poems/shan-ju-qiu-ming.webp"
   },
   {
     "id": "si-shi-tian-yuan-za-xing",
@@ -1981,7 +2034,8 @@
     "keywords": [
       "田园",
       "夏日"
-    ]
+    ],
+    "image": "/poetry/images/poems/si-shi-tian-yuan-za-xing.webp"
   },
   {
     "id": "liu-yue-er-shi-qi-ri-wang-hu-lou-zui-shu",
@@ -2012,7 +2066,8 @@
     "keywords": [
       "西湖",
       "暴雨"
-    ]
+    ],
+    "image": "/poetry/images/poems/liu-yue-er-shi-qi-ri-wang-hu-lou-zui-shu.webp"
   },
   {
     "id": "xi-jiang-yue-ye-xing-huang-sha-dao-zhong",
@@ -2051,7 +2106,8 @@
     "keywords": [
       "田园",
       "夏夜"
-    ]
+    ],
+    "image": "/poetry/images/poems/xi-jiang-yue-ye-xing-huang-sha-dao-zhong.webp"
   },
   {
     "id": "guo-gu-ren-zhuang",
@@ -2094,7 +2150,8 @@
     "keywords": [
       "田园",
       "友情"
-    ]
+    ],
+    "image": "/poetry/images/poems/guo-gu-ren-zhuang.webp"
   },
   {
     "id": "hui-xiang-ou-shu",
@@ -2125,7 +2182,8 @@
     "keywords": [
       "思乡",
       "感慨"
-    ]
+    ],
+    "image": "/poetry/images/poems/hui-xiang-ou-shu.webp"
   },
   {
     "id": "qi-lv-chang-zheng",
@@ -2168,7 +2226,8 @@
     "keywords": [
       "长征",
       "革命"
-    ]
+    ],
+    "image": "/poetry/images/poems/qi-lv-chang-zheng.webp"
   },
   {
     "id": "wen-wang-chang-ling-zuo-qian-long-biao-yao-you-ji-ci",
@@ -2203,7 +2262,8 @@
     "keywords": [
       "送别",
       "友情"
-    ]
+    ],
+    "image": "/poetry/images/poems/wen-wang-chang-ling-zuo-qian-long-biao-yao-you-ji-ci.webp"
   },
   {
     "id": "deng-you-zhou-tai-ge",
@@ -2238,7 +2298,8 @@
     "keywords": [
       "感慨",
       "孤独"
-    ]
+    ],
+    "image": "/poetry/images/poems/deng-you-zhou-tai-ge.webp"
   },
   {
     "id": "wang-yue",
@@ -2281,7 +2342,8 @@
     "keywords": [
       "泰山",
       "壮志"
-    ]
+    ],
+    "image": "/poetry/images/poems/wang-yue.webp"
   },
   {
     "id": "deng-fei-lai-feng",
@@ -2312,7 +2374,8 @@
     "keywords": [
       "哲理",
       "壮志"
-    ]
+    ],
+    "image": "/poetry/images/poems/deng-fei-lai-feng.webp"
   },
   {
     "id": "mu-lan-shi",
@@ -2349,7 +2412,8 @@
     "keywords": [
       "战争",
       "英雄"
-    ]
+    ],
+    "image": "/poetry/images/poems/mu-lan-shi.webp"
   },
   {
     "id": "qian-tang-hu-chun-xing",
@@ -2388,7 +2452,8 @@
     "keywords": [
       "西湖",
       "春景"
-    ]
+    ],
+    "image": "/poetry/images/poems/qian-tang-hu-chun-xing.webp"
   },
   {
     "id": "yin-jiu",
@@ -2428,7 +2493,8 @@
     "keywords": [
       "田园",
       "隐逸"
-    ]
+    ],
+    "image": "/poetry/images/poems/yin-jiu.webp"
   },
   {
     "id": "chun-wang",
@@ -2467,7 +2533,8 @@
     "keywords": [
       "爱国",
       "感怀"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-wang.webp"
   },
   {
     "id": "yan-men-tai-shou-xing",
@@ -2510,7 +2577,8 @@
     "keywords": [
       "边塞",
       "战争"
-    ]
+    ],
+    "image": "/poetry/images/poems/yan-men-tai-shou-xing.webp"
   },
   {
     "id": "chi-bi-du-mu",
@@ -2553,7 +2621,8 @@
     "keywords": [
       "怀古",
       "赤壁"
-    ]
+    ],
+    "image": "/poetry/images/poems/chi-bi-du-mu.webp"
   },
   {
     "id": "chou-le-tian-yang-zhou-chu-feng-xi-shang-jian-zeng",
@@ -2592,7 +2661,8 @@
     "keywords": [
       "感慨",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/chou-le-tian-yang-zhou-chu-feng-xi-shang-jian-zeng.webp"
   },
   {
     "id": "yue-ye-yi-she-di",
@@ -2627,7 +2697,8 @@
     "keywords": [
       "思亲",
       "战乱"
-    ]
+    ],
+    "image": "/poetry/images/poems/yue-ye-yi-she-di.webp"
   },
   {
     "id": "yue-yang-lou-ji",
@@ -2669,7 +2740,8 @@
     "keywords": [
       "哲理",
       "胸襟"
-    ]
+    ],
+    "image": "/poetry/images/poems/yue-yang-lou-ji.webp"
   },
   {
     "id": "zui-weng-ting-ji",
@@ -2700,7 +2772,8 @@
     "keywords": [
       "山水",
       "闲适"
-    ]
+    ],
+    "image": "/poetry/images/poems/zui-weng-ting-ji.webp"
   },
   {
     "id": "gui-yuan-tian-ju",
@@ -2749,7 +2822,8 @@
     "keywords": [
       "田园",
       "归隐"
-    ]
+    ],
+    "image": "/poetry/images/poems/gui-yuan-tian-ju.webp"
   },
   {
     "id": "meng-you-tian-lao-yin-liu-bie",
@@ -2792,7 +2866,8 @@
     "keywords": [
       "游仙",
       "傲骨"
-    ]
+    ],
+    "image": "/poetry/images/poems/meng-you-tian-lao-yin-liu-bie.webp"
   },
   {
     "id": "shu-dao-nan",
@@ -2833,7 +2908,8 @@
     "keywords": [
       "山水",
       "险峻"
-    ]
+    ],
+    "image": "/poetry/images/poems/shu-dao-nan.webp"
   },
   {
     "id": "yu-mei-ren",
@@ -2874,7 +2950,8 @@
     "keywords": [
       "亡国",
       "感怀"
-    ]
+    ],
+    "image": "/poetry/images/poems/yu-mei-ren.webp"
   },
   {
     "id": "quan-xue",
@@ -2914,7 +2991,8 @@
     "keywords": [
       "劝学",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/quan-xue.webp"
   },
   {
     "id": "shi-shuo",
@@ -2951,7 +3029,8 @@
     "keywords": [
       "教育",
       "师道"
-    ]
+    ],
+    "image": "/poetry/images/poems/shi-shuo.webp"
   },
   {
     "id": "guan-ju",
@@ -3000,7 +3079,8 @@
     "keywords": [
       "爱情",
       "诗经"
-    ]
+    ],
+    "image": "/poetry/images/poems/guan-ju.webp"
   },
   {
     "id": "jian-jia",
@@ -3051,7 +3131,8 @@
     "keywords": [
       "诗经",
       "爱情"
-    ]
+    ],
+    "image": "/poetry/images/poems/jian-jia.webp"
   },
   {
     "id": "jiang-nan",
@@ -3082,7 +3163,8 @@
       "江南",
       "采莲",
       "乐府"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-nan.webp"
   },
   {
     "id": "hua-ji",
@@ -3113,7 +3195,8 @@
     "keywords": [
       "咏物",
       "动物"
-    ]
+    ],
+    "image": "/poetry/images/poems/hua-ji.webp"
   },
   {
     "id": "ye-su-shan-si",
@@ -3144,7 +3227,8 @@
     "keywords": [
       "寺庙",
       "想象"
-    ]
+    ],
+    "image": "/poetry/images/poems/ye-su-shan-si.webp"
   },
   {
     "id": "chi-le-ge",
@@ -3180,7 +3264,8 @@
       "草原",
       "民歌",
       "北朝"
-    ]
+    ],
+    "image": "/poetry/images/poems/chi-le-ge.webp"
   },
   {
     "id": "xiao-er-chui-diao",
@@ -3215,7 +3300,8 @@
     "keywords": [
       "儿童",
       "童趣"
-    ]
+    ],
+    "image": "/poetry/images/poems/xiao-er-chui-diao.webp"
   },
   {
     "id": "min-nong-yi",
@@ -3251,7 +3337,8 @@
       "悯农",
       "劳动",
       "社会"
-    ]
+    ],
+    "image": "/poetry/images/poems/min-nong-yi.webp"
   },
   {
     "id": "mei-hua",
@@ -3283,7 +3370,8 @@
       "梅花",
       "咏物",
       "品格"
-    ]
+    ],
+    "image": "/poetry/images/poems/mei-hua.webp"
   },
   {
     "id": "yuan-ri",
@@ -3323,7 +3411,8 @@
       "春节",
       "习俗",
       "喜庆"
-    ]
+    ],
+    "image": "/poetry/images/poems/yuan-ri.webp"
   },
   {
     "id": "qing-ming",
@@ -3355,7 +3444,8 @@
       "清明",
       "节日",
       "春雨"
-    ]
+    ],
+    "image": "/poetry/images/poems/qing-ming.webp"
   },
   {
     "id": "hui-chong-chun-jiang-wan-jing",
@@ -3395,7 +3485,8 @@
       "春天",
       "题画诗",
       "动物"
-    ]
+    ],
+    "image": "/poetry/images/poems/hui-chong-chun-jiang-wan-jing.webp"
   },
   {
     "id": "san-qu-dao-zhong",
@@ -3431,7 +3522,8 @@
       "初夏",
       "山水",
       "旅途"
-    ]
+    ],
+    "image": "/poetry/images/poems/san-qu-dao-zhong.webp"
   },
   {
     "id": "chu-zhou-xi-jian",
@@ -3471,7 +3563,8 @@
       "山水",
       "写景",
       "幽静"
-    ]
+    ],
+    "image": "/poetry/images/poems/chu-zhou-xi-jian.webp"
   },
   {
     "id": "da-lin-si-tao-hua",
@@ -3507,7 +3600,8 @@
       "春天",
       "桃花",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/da-lin-si-tao-hua.webp"
   },
   {
     "id": "fu-rong-lou-song-xin-jian",
@@ -3543,7 +3637,8 @@
       "送别",
       "友情",
       "品格"
-    ]
+    ],
+    "image": "/poetry/images/poems/fu-rong-lou-song-xin-jian.webp"
   },
   {
     "id": "sai-xia-qu",
@@ -3579,7 +3674,8 @@
       "边塞",
       "战争",
       "英勇"
-    ]
+    ],
+    "image": "/poetry/images/poems/sai-xia-qu.webp"
   },
   {
     "id": "mo-mei",
@@ -3615,7 +3711,8 @@
       "梅花",
       "咏物",
       "品格"
-    ]
+    ],
+    "image": "/poetry/images/poems/mo-mei.webp"
   },
   {
     "id": "si-shi-tian-yuan-za-xing-san-shi-yi",
@@ -3655,7 +3752,8 @@
       "田园",
       "劳动",
       "儿童"
-    ]
+    ],
+    "image": "/poetry/images/poems/si-shi-tian-yuan-za-xing-san-shi-yi.webp"
   },
   {
     "id": "su-xin-shi-xu-gong-dian",
@@ -3691,7 +3789,8 @@
       "田园",
       "儿童",
       "春天"
-    ]
+    ],
+    "image": "/poetry/images/poems/su-xin-shi-xu-gong-dian.webp"
   },
   {
     "id": "qing-ping-yue-cun-ju",
@@ -3727,7 +3826,8 @@
       "田园",
       "词",
       "乡村生活"
-    ]
+    ],
+    "image": "/poetry/images/poems/qing-ping-yue-cun-ju.webp"
   },
   {
     "id": "chang-xiang-si",
@@ -3763,7 +3863,8 @@
       "思乡",
       "词",
       "边塞"
-    ]
+    ],
+    "image": "/poetry/images/poems/chang-xiang-si.webp"
   },
   {
     "id": "yu-ge-zi",
@@ -3803,7 +3904,8 @@
       "渔夫",
       "山水",
       "词"
-    ]
+    ],
+    "image": "/poetry/images/poems/yu-ge-zi.webp"
   },
   {
     "id": "niao-ming-jian",
@@ -3835,7 +3937,8 @@
       "山水",
       "静谧",
       "写景"
-    ]
+    ],
+    "image": "/poetry/images/poems/niao-ming-jian.webp"
   },
   {
     "id": "liang-zhou-ci-huang-he",
@@ -3875,7 +3978,8 @@
       "边塞",
       "战争",
       "苍凉"
-    ]
+    ],
+    "image": "/poetry/images/poems/liang-zhou-ci-huang-he.webp"
   },
   {
     "id": "song-yuan-er-shi-an-xi",
@@ -3911,7 +4015,8 @@
       "送别",
       "友情",
       "边塞"
-    ]
+    ],
+    "image": "/poetry/images/poems/song-yuan-er-shi-an-xi.webp"
   },
   {
     "id": "qiu-ye-jiang-xiao",
@@ -3951,7 +4056,8 @@
       "爱国",
       "陆游",
       "悲愤"
-    ]
+    ],
+    "image": "/poetry/images/poems/qiu-ye-jiang-xiao.webp"
   },
   {
     "id": "shi-hui-yin",
@@ -3987,7 +4093,8 @@
       "咏物",
       "品格",
       "志向"
-    ]
+    ],
+    "image": "/poetry/images/poems/shi-hui-yin.webp"
   },
   {
     "id": "zhu-shi",
@@ -4023,7 +4130,8 @@
       "咏物",
       "品格",
       "坚毅"
-    ]
+    ],
+    "image": "/poetry/images/poems/zhu-shi.webp"
   },
   {
     "id": "wen-guan-jun-shou-he-nan-he-bei",
@@ -4063,7 +4171,8 @@
       "杜甫",
       "爱国",
       "喜悦"
-    ]
+    ],
+    "image": "/poetry/images/poems/wen-guan-jun-shou-he-nan-he-bei.webp"
   },
   {
     "id": "zao-chen-cheng-shui-bu",
@@ -4099,7 +4208,8 @@
       "早春",
       "写景",
       "韩愈"
-    ]
+    ],
+    "image": "/poetry/images/poems/zao-chen-cheng-shui-bu.webp"
   },
   {
     "id": "han-shi",
@@ -4135,7 +4245,8 @@
       "寒食",
       "春天",
       "习俗"
-    ]
+    ],
+    "image": "/poetry/images/poems/han-shi.webp"
   },
   {
     "id": "jiang-shang-yu-zhe",
@@ -4171,7 +4282,8 @@
       "渔夫",
       "劳动",
       "同情"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-shang-yu-zhe.webp"
   },
   {
     "id": "bo-chuan-gua-zhou",
@@ -4211,7 +4323,8 @@
       "思乡",
       "春天",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/bo-chuan-gua-zhou.webp"
   },
   {
     "id": "chang-ge-xing",
@@ -4248,7 +4361,8 @@
       "劝学",
       "惜时",
       "乐府"
-    ]
+    ],
+    "image": "/poetry/images/poems/chang-ge-xing.webp"
   },
   {
     "id": "lu-chai",
@@ -4280,7 +4394,8 @@
       "山水",
       "静谧",
       "王维"
-    ]
+    ],
+    "image": "/poetry/images/poems/lu-chai.webp"
   },
   {
     "id": "du-zuo-jing-ting-shan",
@@ -4312,7 +4427,8 @@
       "山水",
       "孤独",
       "李白"
-    ]
+    ],
+    "image": "/poetry/images/poems/du-zuo-jing-ting-shan.webp"
   },
   {
     "id": "huang-he-lou-song-meng-hao-ran",
@@ -4348,7 +4464,8 @@
       "送别",
       "友情",
       "李白"
-    ]
+    ],
+    "image": "/poetry/images/poems/huang-he-lou-song-meng-hao-ran.webp"
   },
   {
     "id": "bie-dong-da",
@@ -4384,7 +4501,8 @@
       "送别",
       "友情",
       "豪迈"
-    ]
+    ],
+    "image": "/poetry/images/poems/bie-dong-da.webp"
   },
   {
     "id": "chun-ye-xi-yu",
@@ -4420,7 +4538,8 @@
       "春雨",
       "杜甫",
       "写景"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-ye-xi-yu.webp"
   },
   {
     "id": "jiang-pan-du-bu-xun-hua",
@@ -4456,7 +4575,8 @@
       "春天",
       "写景",
       "杜甫"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-pan-du-bu-xun-hua.webp"
   },
   {
     "id": "you-zi-yin",
@@ -4494,7 +4614,8 @@
       "母爱",
       "游子",
       "亲情"
-    ]
+    ],
+    "image": "/poetry/images/poems/you-zi-yin.webp"
   },
   {
     "id": "wang-dong-ting",
@@ -4530,7 +4651,8 @@
       "写景",
       "山水",
       "刘禹锡"
-    ]
+    ],
+    "image": "/poetry/images/poems/wang-dong-ting.webp"
   },
   {
     "id": "lang-tao-sha",
@@ -4566,7 +4688,8 @@
       "黄河",
       "想象",
       "刘禹锡"
-    ]
+    ],
+    "image": "/poetry/images/poems/lang-tao-sha.webp"
   },
   {
     "id": "jiang-xue",
@@ -4602,7 +4725,8 @@
       "冬天",
       "孤寂",
       "柳宗元"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-xue.webp"
   },
   {
     "id": "jiang-nan-chun",
@@ -4638,7 +4762,8 @@
       "江南",
       "春天",
       "杜牧"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-nan-chun.webp"
   },
   {
     "id": "shu-hu-yin-xian-sheng-bi",
@@ -4670,7 +4795,8 @@
       "田园",
       "写景",
       "王安石"
-    ]
+    ],
+    "image": "/poetry/images/poems/shu-hu-yin-xian-sheng-bi.webp"
   },
   {
     "id": "guan-shu-you-gan",
@@ -4706,7 +4832,8 @@
       "哲理",
       "读书",
       "朱熹"
-    ]
+    ],
+    "image": "/poetry/images/poems/guan-shu-you-gan.webp"
   },
   {
     "id": "you-yuan-bu-zhi",
@@ -4742,7 +4869,8 @@
       "春天",
       "哲理",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/you-yuan-bu-zhi.webp"
   },
   {
     "id": "xiang-cun-si-yue",
@@ -4778,7 +4906,8 @@
       "田园",
       "劳动",
       "初夏"
-    ]
+    ],
+    "image": "/poetry/images/poems/xiang-cun-si-yue.webp"
   },
   {
     "id": "suo-jian",
@@ -4810,7 +4939,8 @@
       "儿童",
       "童趣",
       "田园"
-    ]
+    ],
+    "image": "/poetry/images/poems/suo-jian.webp"
   },
   {
     "id": "e-mei-shan-yue-ge",
@@ -4850,7 +4980,8 @@
       "李白",
       "思乡",
       "山水"
-    ]
+    ],
+    "image": "/poetry/images/poems/e-mei-shan-yue-ge.webp"
   },
   {
     "id": "jiang-nan-feng-li-gui-nian",
@@ -4886,7 +5017,8 @@
       "杜甫",
       "感慨",
       "春天"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-nan-feng-li-gui-nian.webp"
   },
   {
     "id": "qiu-ci-yi",
@@ -4926,7 +5058,8 @@
       "秋天",
       "豪迈",
       "刘禹锡"
-    ]
+    ],
+    "image": "/poetry/images/poems/qiu-ci-yi.webp"
   },
   {
     "id": "ye-yu-ji-bei",
@@ -4962,7 +5095,8 @@
       "思乡",
       "李商隐",
       "秋雨"
-    ]
+    ],
+    "image": "/poetry/images/poems/ye-yu-ji-bei.webp"
   },
   {
     "id": "shi-yi-yue-si-ri",
@@ -5002,7 +5136,8 @@
       "爱国",
       "陆游",
       "梦境"
-    ]
+    ],
+    "image": "/poetry/images/poems/shi-yi-yue-si-ri.webp"
   },
   {
     "id": "zhu-li-guan",
@@ -5034,7 +5169,8 @@
       "王维",
       "闲适",
       "竹林"
-    ]
+    ],
+    "image": "/poetry/images/poems/zhu-li-guan.webp"
   },
   {
     "id": "chun-ye-luo-cheng-wen-di",
@@ -5070,7 +5206,8 @@
       "李白",
       "思乡",
       "笛声"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-ye-luo-cheng-wen-di.webp"
   },
   {
     "id": "feng-ru-jing-shi",
@@ -5106,7 +5243,8 @@
       "岑参",
       "思乡",
       "边塞"
-    ]
+    ],
+    "image": "/poetry/images/poems/feng-ru-jing-shi.webp"
   },
   {
     "id": "bo-qin-huai",
@@ -5142,7 +5280,8 @@
       "杜牧",
       "怀古",
       "感慨"
-    ]
+    ],
+    "image": "/poetry/images/poems/bo-qin-huai.webp"
   },
   {
     "id": "wan-chun",
@@ -5182,7 +5321,8 @@
       "韩愈",
       "春天",
       "惜时"
-    ]
+    ],
+    "image": "/poetry/images/poems/wan-chun.webp"
   },
   {
     "id": "ye-wang",
@@ -5222,7 +5362,8 @@
       "王绩",
       "隐逸",
       "秋天"
-    ]
+    ],
+    "image": "/poetry/images/poems/ye-wang.webp"
   },
   {
     "id": "du-jing-men-song-bie",
@@ -5262,7 +5403,8 @@
       "李白",
       "送别",
       "壮游"
-    ]
+    ],
+    "image": "/poetry/images/poems/du-jing-men-song-bie.webp"
   },
   {
     "id": "yu-jia-ao",
@@ -5302,7 +5444,8 @@
       "李清照",
       "豪放",
       "梦境"
-    ]
+    ],
+    "image": "/poetry/images/poems/yu-jia-ao.webp"
   },
   {
     "id": "song-du-shao-fu",
@@ -5346,7 +5489,8 @@
       "送别",
       "王勃",
       "友情"
-    ]
+    ],
+    "image": "/poetry/images/poems/song-du-shao-fu.webp"
   },
   {
     "id": "mao-wu-wei-qiu-feng",
@@ -5387,7 +5531,8 @@
       "杜甫",
       "忧国忧民",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/mao-wu-wei-qiu-feng.webp"
   },
   {
     "id": "mai-tan-weng",
@@ -5430,7 +5575,8 @@
       "白居易",
       "同情",
       "劳动人民"
-    ]
+    ],
+    "image": "/poetry/images/poems/mai-tan-weng.webp"
   },
   {
     "id": "ti-po-shan-si",
@@ -5474,7 +5620,8 @@
       "常建",
       "禅意",
       "古寺"
-    ]
+    ],
+    "image": "/poetry/images/poems/ti-po-shan-si.webp"
   },
   {
     "id": "song-you-ren",
@@ -5514,7 +5661,8 @@
       "李白",
       "送别",
       "友情"
-    ]
+    ],
+    "image": "/poetry/images/poems/song-you-ren.webp"
   },
   {
     "id": "wu-ti",
@@ -5558,7 +5706,8 @@
       "李商隐",
       "爱情",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/wu-ti.webp"
   },
   {
     "id": "bai-xue-ge-song-pan-guan",
@@ -5603,7 +5752,8 @@
       "边塞",
       "送别",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/bai-xue-ge-song-pan-guan.webp"
   },
   {
     "id": "nan-xiang-zi",
@@ -5643,7 +5793,8 @@
       "辛弃疾",
       "怀古",
       "爱国"
-    ]
+    ],
+    "image": "/poetry/images/poems/nan-xiang-zi.webp"
   },
   {
     "id": "guo-ling-ding-yang",
@@ -5687,7 +5838,8 @@
       "文天祥",
       "爱国",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/guo-ling-ding-yang.webp"
   },
   {
     "id": "po-zhen-zi",
@@ -5727,7 +5879,8 @@
       "辛弃疾",
       "豪放",
       "词"
-    ]
+    ],
+    "image": "/poetry/images/poems/po-zhen-zi.webp"
   },
   {
     "id": "jiang-cheng-zi-mi-zhou",
@@ -5769,7 +5922,8 @@
       "苏轼",
       "豪放",
       "爱国"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-cheng-zi-mi-zhou.webp"
   },
   {
     "id": "ding-feng-bo",
@@ -5809,7 +5963,8 @@
       "苏轼",
       "豪放",
       "哲理"
-    ]
+    ],
+    "image": "/poetry/images/poems/ding-feng-bo.webp"
   },
   {
     "id": "man-jiang-hong",
@@ -5853,7 +6008,8 @@
       "秋瑾",
       "豪放",
       "爱国"
-    ]
+    ],
+    "image": "/poetry/images/poems/man-jiang-hong.webp"
   },
   {
     "id": "jing-nv",
@@ -5903,7 +6059,8 @@
       "诗经",
       "爱情",
       "约会"
-    ]
+    ],
+    "image": "/poetry/images/poems/jing-nv.webp"
   },
   {
     "id": "she-jiang-cai-fu-rong",
@@ -5947,7 +6104,8 @@
       "古诗十九首",
       "思乡",
       "爱情"
-    ]
+    ],
+    "image": "/poetry/images/poems/she-jiang-cai-fu-rong.webp"
   },
   {
     "id": "li-sao",
@@ -5987,7 +6145,8 @@
       "屈原",
       "楚辞",
       "爱国"
-    ]
+    ],
+    "image": "/poetry/images/poems/li-sao.webp"
   },
   {
     "id": "yong-yu-le",
@@ -6035,7 +6194,8 @@
       "辛弃疾",
       "怀古",
       "豪放"
-    ]
+    ],
+    "image": "/poetry/images/poems/yong-yu-le.webp"
   },
   {
     "id": "gui-qu-lai-xi-ci",
@@ -6077,7 +6237,8 @@
       "陶渊明",
       "归隐",
       "辞赋"
-    ]
+    ],
+    "image": "/poetry/images/poems/gui-qu-lai-xi-ci.webp"
   },
   {
     "id": "sheng-sheng-man",
@@ -6121,7 +6282,8 @@
       "李清照",
       "婉约",
       "愁"
-    ]
+    ],
+    "image": "/poetry/images/poems/sheng-sheng-man.webp"
   },
   {
     "id": "que-qiao-xian",
@@ -6162,7 +6324,8 @@
       "爱情",
       "词",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/que-qiao-xian.webp"
   },
   {
     "id": "lin-an-chun-yu-chu-ji",
@@ -6206,7 +6369,8 @@
       "陆游",
       "春日",
       "客居"
-    ]
+    ],
+    "image": "/poetry/images/poems/lin-an-chun-yu-chu-ji.webp"
   },
   {
     "id": "shu-xiang",
@@ -6250,7 +6414,8 @@
       "杜甫",
       "怀古",
       "诸葛亮"
-    ]
+    ],
+    "image": "/poetry/images/poems/shu-xiang.webp"
   },
   {
     "id": "wang-hai-chao",
@@ -6298,7 +6463,8 @@
       "柳永",
       "杭州",
       "词"
-    ]
+    ],
+    "image": "/poetry/images/poems/wang-hai-chao.webp"
   },
   {
     "id": "yang-zhou-man",
@@ -6346,7 +6512,8 @@
       "姜夔",
       "扬州",
       "怀古"
-    ]
+    ],
+    "image": "/poetry/images/poems/yang-zhou-man.webp"
   },
   {
     "id": "ju-hua-yin",
@@ -6390,7 +6557,8 @@
       "李清照",
       "婉约",
       "重阳"
-    ]
+    ],
+    "image": "/poetry/images/poems/ju-hua-yin.webp"
   },
   {
     "id": "yu-lin-lin",
@@ -6434,7 +6602,8 @@
       "柳永",
       "婉约",
       "离别"
-    ]
+    ],
+    "image": "/poetry/images/poems/yu-lin-lin.webp"
   },
   {
     "id": "jiang-jin-jiu",
@@ -6474,7 +6643,8 @@
       "李白",
       "豪放",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/jiang-jin-jiu.webp"
   },
   {
     "id": "shu-fen",
@@ -6518,7 +6688,8 @@
       "陆游",
       "爱国",
       "感慨"
-    ]
+    ],
+    "image": "/poetry/images/poems/shu-fen.webp"
   },
   {
     "id": "qing-yu-an",
@@ -6559,7 +6730,8 @@
       "辛弃疾",
       "元宵",
       "名句"
-    ]
+    ],
+    "image": "/poetry/images/poems/qing-yu-an.webp"
   },
   {
     "id": "chun-jiang-hua-yue-ye",
@@ -6610,7 +6782,8 @@
       "月亮",
       "哲理",
       "名篇"
-    ]
+    ],
+    "image": "/poetry/images/poems/chun-jiang-hua-yue-ye.webp"
   },
   {
     "id": "ke-zhi",
@@ -6654,7 +6827,8 @@
       "杜甫",
       "友情",
       "待客"
-    ]
+    ],
+    "image": "/poetry/images/poems/ke-zhi.webp"
   },
   {
     "id": "su-mu-zhe",
@@ -6702,7 +6876,8 @@
       "周邦彦",
       "思乡",
       "荷花"
-    ]
+    ],
+    "image": "/poetry/images/poems/su-mu-zhe.webp"
   },
   {
     "id": "yi-ni-xing-lu-nan",
@@ -6746,7 +6921,8 @@
       "鲍照",
       "感慨",
       "行路难"
-    ]
+    ],
+    "image": "/poetry/images/poems/yi-ni-xing-lu-nan.webp"
   },
   {
     "id": "lou-shi-ming",
@@ -6791,7 +6967,8 @@
       "刘禹锡",
       "品德",
       "名篇"
-    ]
+    ],
+    "image": "/poetry/images/poems/lou-shi-ming.webp"
   },
   {
     "id": "ai-lian-shuo",
@@ -6835,7 +7012,8 @@
       "周敦颐",
       "品质",
       "莲花"
-    ]
+    ],
+    "image": "/poetry/images/poems/ai-lian-shuo.webp"
   },
   {
     "id": "pu-sa-man-shu-jiang",
@@ -6876,7 +7054,8 @@
       "辛弃疾",
       "爱国",
       "怀古"
-    ]
+    ],
+    "image": "/poetry/images/poems/pu-sa-man-shu-jiang.webp"
   },
   {
     "id": "deng-yue-yang-lou",
@@ -6916,7 +7095,8 @@
       "杜甫",
       "洞庭",
       "感慨"
-    ]
+    ],
+    "image": "/poetry/images/poems/deng-yue-yang-lou.webp"
   },
   {
     "id": "yan-ge-xing",
@@ -6962,7 +7142,8 @@
       "高适",
       "边塞",
       "战争"
-    ]
+    ],
+    "image": "/poetry/images/poems/yan-ge-xing.webp"
   },
   {
     "id": "xiao-yao-you",
@@ -7005,7 +7186,8 @@
       "庄子",
       "想象",
       "自由"
-    ]
+    ],
+    "image": "/poetry/images/poems/xiao-yao-you.webp"
   },
   {
     "id": "tao-hua-yuan-ji",
@@ -7054,6 +7236,7 @@
       "陶渊明",
       "理想",
       "名篇"
-    ]
+    ],
+    "image": "/poetry/images/poems/tao-hua-yuan-ji.webp"
   }
 ]

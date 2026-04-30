@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, Suspense } from 'react';
+import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { getAllPoems } from '@/lib/poems';
 import { searchPoems } from '@/lib/utils';
@@ -13,10 +13,6 @@ function SearchContent() {
   const router = useRouter();
   const initialQuery = searchParams.get('q') || '';
   const [query, setQuery] = useState(initialQuery);
-
-  useEffect(() => {
-    setQuery(initialQuery);
-  }, [initialQuery]);
 
   const poems = useMemo(() => getAllPoems(), []);
   const results = useMemo(() => {

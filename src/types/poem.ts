@@ -21,6 +21,7 @@ export interface Poem {
   appreciation?: string;
   isRequired: boolean;
   keywords?: string[];
+  image?: string;
 }
 
 export interface GradeMeta {

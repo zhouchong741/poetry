@@ -1,6 +1,5 @@
 'use client';
 
-import type { PoemType } from '@/types/poem';
 import { POEM_TYPES } from '@/lib/constants';
 
 interface FilterBarProps {
