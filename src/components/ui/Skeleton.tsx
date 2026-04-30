@@ -10,7 +10,7 @@ export default function Skeleton({ className = '' }: SkeletonProps) {
 
 export function PoemCardSkeleton() {
   return (
-    <div className="rounded-lg border border-inkwash bg-white p-5">
+    <div className="rounded-lg border border-inkwash bg-white p-5 dark:bg-paper-dark">
       <Skeleton className="mb-2 h-5 w-28" />
       <Skeleton className="mb-3 h-4 w-20" />
       <Skeleton className="mb-1 h-4 w-full" />

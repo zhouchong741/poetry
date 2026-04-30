@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme inline {
   --color-paper: #faf6f0;
   --color-paper-dark: #f0ebe3;
@@ -14,12 +16,74 @@
   --font-songti: 'STSong', 'SimSun', 'Noto Serif SC', serif;
 }
 
+/* Dark mode CSS variable overrides */
+.dark {
+  --color-paper: #1e293b;
+  --color-paper-dark: #0f172a;
+  --color-ink: #a0aec0;
+  --color-crimson: #e2a0a0;
+  --color-crimson-light: #3b1a1a;
+  --color-gold: #d4a040;
+  --color-jade: #8bc4a0;
+  --color-inkwash: #374151;
+}
+
+/* Tailwind v4 compiles @theme inline colors to hardcoded RGB at build time.
+   These author-layer overrides use var() references so .dark class changes take effect. */
+.bg-paper { background-color: var(--color-paper); }
+.bg-paper-dark { background-color: var(--color-paper-dark); }
+.text-ink { color: var(--color-ink); }
+.border-inkwash { border-color: var(--color-inkwash); }
+.bg-inkwash { background-color: var(--color-inkwash); }
+.text-crimson { color: var(--color-crimson); }
+.bg-crimson-light { background-color: var(--color-crimson-light); }
+.text-jade { color: var(--color-jade); }
+
+/* Opacity modifier variants using color-mix() */
+.bg-paper\/95 { background-color: color-mix(in oklab, var(--color-paper) 95%, transparent); }
+.bg-jade\/10 { background-color: color-mix(in oklab, var(--color-jade) 10%, transparent); }
+.border-crimson\/20 { border-color: color-mix(in oklab, var(--color-crimson) 20%, transparent); }
+.border-jade\/20 { border-color: color-mix(in oklab, var(--color-jade) 20%, transparent); }
+
+/* Override dark: variants for custom theme colors (Tailwind v4 hardcodes these too) */
+.dark .dark\:bg-paper-dark { background-color: var(--color-paper-dark); }
+.dark .dark\:bg-paper { background-color: var(--color-paper); }
+
 * {
   box-sizing: border-box;
+}
+
+/* Minimal scrollbar - doesn't affect content width */
+html {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+html.dark {
+  scrollbar-color: #475569 transparent;
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 3px;
+}
+
+html.dark::-webkit-scrollbar-thumb {
+  background-color: #475569;
 }
 
 body {
   background: var(--color-paper);
   color: var(--color-ink);
   font-family: var(--font-chinese);
+  transition: background-color 0.2s, color 0.2s;
 }

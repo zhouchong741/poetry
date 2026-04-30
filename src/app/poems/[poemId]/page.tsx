@@ -28,14 +28,14 @@ export default async function PoemPage({ params }: { params: Promise<{ poemId: s
   if (!poem) notFound();
 
   return (
-    <article className="mx-auto max-w-2xl px-4 py-8">
+    <article className="mx-auto max-w-3xl px-4 py-8">
       <div className="mb-6">
         <BackButton />
       </div>
 
       <header className="mb-6 text-center">
         <h1 className="mb-2 text-3xl font-bold text-ink">{poem.title}</h1>
-        <p className="mb-3 text-base text-zinc-500">
+        <p className="mb-3 text-base text-zinc-500 dark:text-zinc-400">
           {displayDynasty(poem.dynasty)} · {poem.author}
         </p>
         <div className="flex justify-center gap-2">
@@ -44,27 +44,27 @@ export default async function PoemPage({ params }: { params: Promise<{ poemId: s
         </div>
       </header>
 
-      <section className="mb-8 rounded-lg bg-white p-6 shadow-sm">
+      <section className="mb-8 rounded-lg bg-white p-6 shadow-sm dark:bg-paper-dark">
         <PoemText text={poem.text} />
       </section>
 
       <div className="space-y-4">
         <AnnotationsAccordion annotations={poem.annotations} />
 
-        <section className="rounded-lg border border-inkwash bg-white p-4">
+        <section className="rounded-lg border border-inkwash bg-white p-4 dark:bg-paper-dark">
           <TranslationBlock translation={poem.translation} />
         </section>
 
         {poem.background && (
-          <section className="rounded-lg border border-inkwash bg-white p-4">
-            <h3 className="mb-2 text-sm font-medium text-zinc-500">创作背景</h3>
+          <section className="rounded-lg border border-inkwash bg-white p-4 dark:bg-paper-dark">
+            <h3 className="mb-2 text-sm font-medium text-zinc-500 dark:text-zinc-400">创作背景</h3>
             <p className="text-sm leading-6 text-ink">{poem.background}</p>
           </section>
         )}
 
         {poem.appreciation && (
-          <section className="rounded-lg border border-inkwash bg-white p-4">
-            <h3 className="mb-2 text-sm font-medium text-zinc-500">赏析</h3>
+          <section className="rounded-lg border border-inkwash bg-white p-4 dark:bg-paper-dark">
+            <h3 className="mb-2 text-sm font-medium text-zinc-500 dark:text-zinc-400">赏析</h3>
             <p className="text-sm leading-6 text-ink">{poem.appreciation}</p>
           </section>
         )}

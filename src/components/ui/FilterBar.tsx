@@ -27,7 +27,7 @@ export default function FilterBar({
       <select
         value={selectedDynasty}
         onChange={(e) => onDynastyChange(e.target.value)}
-        className="rounded-lg border border-inkwash bg-white px-3 py-1.5 text-sm text-zinc-700"
+        className="rounded-lg border border-inkwash bg-white px-3 py-1.5 text-sm text-zinc-700 dark:bg-paper-dark dark:text-zinc-300"
       >
         <option value="">全部朝代</option>
         {dynasties.map((d) => (
@@ -40,7 +40,7 @@ export default function FilterBar({
       <select
         value={selectedType}
         onChange={(e) => onTypeChange(e.target.value)}
-        className="rounded-lg border border-inkwash bg-white px-3 py-1.5 text-sm text-zinc-700"
+        className="rounded-lg border border-inkwash bg-white px-3 py-1.5 text-sm text-zinc-700 dark:bg-paper-dark dark:text-zinc-300"
       >
         <option value="">全部类型</option>
         {POEM_TYPES.map((t) => (
@@ -48,12 +48,12 @@ export default function FilterBar({
         ))}
       </select>
 
-      <label className="flex items-center gap-1.5 text-sm text-zinc-600">
+      <label className="flex items-center gap-1.5 text-sm text-zinc-600 dark:text-zinc-400">
         <input
           type="checkbox"
           checked={requiredOnly}
           onChange={(e) => onRequiredChange(e.target.checked)}
-          className="h-4 w-4 rounded border-zinc-300"
+          className="h-4 w-4 rounded border-zinc-300 dark:border-zinc-600"
         />
         仅看必背
       </label>

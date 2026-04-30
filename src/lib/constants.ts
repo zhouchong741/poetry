@@ -37,18 +37,18 @@ export const DYNASTY_ID_MAP: Record<string, string> = Object.fromEntries(
 export const POEM_TYPES: PoemType[] = ['诗', '词', '曲', '古文'];
 
 export const GRADE_COLORS: Record<number, string> = {
-  1: 'bg-green-50 border-green-200 hover:border-green-400',
-  2: 'bg-emerald-50 border-emerald-200 hover:border-emerald-400',
-  3: 'bg-teal-50 border-teal-200 hover:border-teal-400',
-  4: 'bg-cyan-50 border-cyan-200 hover:border-cyan-400',
-  5: 'bg-sky-50 border-sky-200 hover:border-sky-400',
-  6: 'bg-blue-50 border-blue-200 hover:border-blue-400',
-  7: 'bg-indigo-50 border-indigo-200 hover:border-indigo-400',
-  8: 'bg-violet-50 border-violet-200 hover:border-violet-400',
-  9: 'bg-purple-50 border-purple-200 hover:border-purple-400',
-  10: 'bg-fuchsia-50 border-fuchsia-200 hover:border-fuchsia-400',
-  11: 'bg-pink-50 border-pink-200 hover:border-pink-400',
-  12: 'bg-rose-50 border-rose-200 hover:border-rose-400',
+  1: 'bg-green-50 border-green-200 hover:border-green-400 dark:bg-green-950/50 dark:border-green-800/40 dark:hover:border-green-600/60',
+  2: 'bg-emerald-50 border-emerald-200 hover:border-emerald-400 dark:bg-emerald-950/50 dark:border-emerald-800/40 dark:hover:border-emerald-600/60',
+  3: 'bg-teal-50 border-teal-200 hover:border-teal-400 dark:bg-teal-950/50 dark:border-teal-800/40 dark:hover:border-teal-600/60',
+  4: 'bg-cyan-50 border-cyan-200 hover:border-cyan-400 dark:bg-cyan-950/50 dark:border-cyan-800/40 dark:hover:border-cyan-600/60',
+  5: 'bg-sky-50 border-sky-200 hover:border-sky-400 dark:bg-sky-950/50 dark:border-sky-800/40 dark:hover:border-sky-600/60',
+  6: 'bg-blue-50 border-blue-200 hover:border-blue-400 dark:bg-blue-950/50 dark:border-blue-800/40 dark:hover:border-blue-600/60',
+  7: 'bg-indigo-50 border-indigo-200 hover:border-indigo-400 dark:bg-indigo-950/50 dark:border-indigo-800/40 dark:hover:border-indigo-600/60',
+  8: 'bg-violet-50 border-violet-200 hover:border-violet-400 dark:bg-violet-950/50 dark:border-violet-800/40 dark:hover:border-violet-600/60',
+  9: 'bg-purple-50 border-purple-200 hover:border-purple-400 dark:bg-purple-950/50 dark:border-purple-800/40 dark:hover:border-purple-600/60',
+  10: 'bg-fuchsia-50 border-fuchsia-200 hover:border-fuchsia-400 dark:bg-fuchsia-950/50 dark:border-fuchsia-800/40 dark:hover:border-fuchsia-600/60',
+  11: 'bg-pink-50 border-pink-200 hover:border-pink-400 dark:bg-pink-950/50 dark:border-pink-800/40 dark:hover:border-pink-600/60',
+  12: 'bg-rose-50 border-rose-200 hover:border-rose-400 dark:bg-rose-950/50 dark:border-rose-800/40 dark:hover:border-rose-600/60',
 };
 
 export const SITE_TITLE = '古诗文学习';

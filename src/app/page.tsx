@@ -11,9 +11,9 @@ export default function Home() {
     <div className="mx-auto max-w-5xl px-4 py-8">
       <section className="mb-10 text-center">
         <h1 className="mb-2 text-3xl font-bold text-ink">
-          中国古典诗词
+          中小学生必背古诗词
         </h1>
-        <p className="text-lg text-zinc-500">
+        <p className="text-lg text-zinc-500 dark:text-zinc-400">
           覆盖 {stats.totalGrades} 个年级 · {stats.totalDynasties} 个朝代 · 共 {stats.totalPoems} 篇
         </p>
       </section>
@@ -32,7 +32,7 @@ export default function Home() {
             <Link
               key={d.id}
               href={`/dynasty/${d.id}`}
-              className="rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-sm text-amber-800 transition-colors hover:bg-amber-100"
+              className="rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-sm text-amber-800 transition-colors hover:bg-amber-100 dark:border-amber-700/40 dark:bg-amber-950/40 dark:text-amber-300/60 dark:hover:bg-amber-900/50"
             >
               {d.label}（{d.count}）
             </Link>

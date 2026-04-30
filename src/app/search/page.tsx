@@ -6,6 +6,7 @@ import { getAllPoems } from '@/lib/poems';
 import { searchPoems } from '@/lib/utils';
 import PoemCard from '@/components/poem/PoemCard';
 import EmptyState from '@/components/ui/EmptyState';
+import BackButton from '@/components/ui/BackButton';
 
 function SearchContent() {
   const searchParams = useSearchParams();
@@ -36,6 +37,10 @@ function SearchContent() {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
+      <div className="mb-6">
+        <BackButton />
+      </div>
+
       <h1 className="mb-6 text-2xl font-bold text-ink">搜索古诗</h1>
 
       <div className="relative mb-6">
@@ -44,11 +49,11 @@ function SearchContent() {
           value={query}
           onChange={(e) => handleChange(e.target.value)}
           placeholder="搜索标题、作者或诗句……"
-          className="w-full rounded-lg border border-inkwash bg-white px-4 py-3 pl-10 text-base text-ink outline-none transition-colors focus:border-zinc-400"
+          className="w-full rounded-lg border border-inkwash bg-white px-4 py-3 pl-10 text-base text-ink outline-none transition-colors focus:border-zinc-400 dark:bg-paper-dark dark:focus:border-zinc-500"
           autoFocus
         />
         <svg
-          className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-400"
+          className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-400 dark:text-zinc-500"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
@@ -59,7 +64,7 @@ function SearchContent() {
         {query && (
           <button
             onClick={() => handleChange('')}
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600"
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300"
           >
             <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -69,7 +74,7 @@ function SearchContent() {
       </div>
 
       {query.trim() && (
-        <p className="mb-4 text-sm text-zinc-500">
+        <p className="mb-4 text-sm text-zinc-500 dark:text-zinc-400">
           搜索 &ldquo;{query}&rdquo;，找到 {results.length} 个结果
         </p>
       )}

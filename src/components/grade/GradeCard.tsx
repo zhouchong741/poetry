@@ -11,9 +11,9 @@ export default function GradeCard({ grade }: { grade: GradeMeta }) {
       href={`/grade/${grade.id}`}
       className={`group flex flex-col gap-1 rounded-lg border-2 p-5 transition-all ${colorClasses}`}
     >
-      <span className="text-xs font-medium text-zinc-500">{stage}</span>
+      <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">{stage}</span>
       <span className="text-xl font-bold text-ink">{grade.label}</span>
-      <span className="text-sm text-zinc-500">
+      <span className="text-sm text-zinc-500 dark:text-zinc-400">
         {grade.poemCount} 首 · {grade.requiredCount} 首必背
       </span>
     </Link>
