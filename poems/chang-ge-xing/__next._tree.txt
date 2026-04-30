@@ -1,2 +1,2 @@
-:HL["/poetry/_next/static/chunks/17~5bqh~11ieh.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"chang-ge-xing","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"dvoYB2YsQqbUE85CB5CXq"}
+:HL["/poetry/_next/static/chunks/17v3bicmrr8xt.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"chang-ge-xing","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Fg9lRoSWSnD3R7kJzXaB6"}
