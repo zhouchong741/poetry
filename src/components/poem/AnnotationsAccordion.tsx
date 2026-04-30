@@ -9,10 +9,10 @@ export default function AnnotationsAccordion({ annotations }: { annotations: Ann
   if (annotations.length === 0) return null;
 
   return (
-    <div className="rounded-lg border border-inkwash bg-white dark:bg-paper-dark">
+    <div className="overflow-hidden rounded-lg border border-inkwash bg-white dark:bg-paper-dark">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-ink transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800"
+        className={`flex w-full items-center justify-between px-4 py-3 text-left text-sm font-medium text-ink transition-colors hover:bg-zinc-50 dark:hover:bg-zinc-800 ${open ? 'rounded-t-lg' : ''}`}
       >
         <span>注释（{annotations.length}）</span>
         <svg
