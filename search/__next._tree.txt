@@ -1,2 +1,2 @@
 :HL["/poetry/_next/static/chunks/0e~3580-z-e7r.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"search","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ctqHOw77V0Dvt2TWiwtuy"}
+0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"search","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"i1wxuhOCNRmea0z_ROGv1"}
