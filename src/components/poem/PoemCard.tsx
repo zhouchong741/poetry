@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Poem } from '@/types/poem';
 import Badge from '@/components/ui/Badge';
+import { displayDynasty } from '@/lib/utils';
 
 export default function PoemCard({ poem }: { poem: Poem }) {
   const excerpt = poem.text.slice(0, 2).join('');
@@ -13,7 +14,7 @@ export default function PoemCard({ poem }: { poem: Poem }) {
       <div className="mb-2 flex flex-wrap items-center gap-2">
         <h3 className="text-base font-semibold text-ink">{poem.title}</h3>
         <span className="text-xs text-zinc-400">
-          {poem.dynasty} · {poem.author}
+          {displayDynasty(poem.dynasty)} · {poem.author}
         </span>
         <div className="flex gap-1">
           <Badge variant="type">{poem.type}</Badge>

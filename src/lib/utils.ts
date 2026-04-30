@@ -38,3 +38,14 @@ export function getGradeRange(grade: number): string {
   const age = grade + 5;
   return `${age}-${age + 1}岁`;
 }
+
+export function displayDynasty(dynasty: string): string {
+  const short: Record<string, string> = {
+    '唐代': '唐',
+    '宋代': '宋',
+    '元代': '元',
+    '明代': '明',
+    '清代': '清',
+  };
+  return short[dynasty] || dynasty;
+}

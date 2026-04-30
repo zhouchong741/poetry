@@ -6,6 +6,7 @@ import Badge from '@/components/ui/Badge';
 import PoemText from '@/components/poem/PoemText';
 import AnnotationsAccordion from '@/components/poem/AnnotationsAccordion';
 import TranslationBlock from '@/components/poem/TranslationBlock';
+import { displayDynasty } from '@/lib/utils';
 
 export async function generateStaticParams() {
   return getAllPoems().map((p) => ({ poemId: p.id }));
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ poemId: s
   if (!poem) return {};
   return {
     title: poem.title,
-    description: `${poem.dynasty} · ${poem.author} · ${poem.text.slice(0, 2).join('')}`,
+    description: `${displayDynasty(poem.dynasty)} · ${poem.author} · ${poem.text.slice(0, 2).join('')}`,
   };
 }
 
@@ -35,7 +36,7 @@ export default async function PoemPage({ params }: { params: Promise<{ poemId: s
       <header className="mb-6 text-center">
         <h1 className="mb-2 text-3xl font-bold text-ink">{poem.title}</h1>
         <p className="mb-3 text-base text-zinc-500">
-          {poem.dynasty} · {poem.author}
+          {displayDynasty(poem.dynasty)} · {poem.author}
         </p>
         <div className="flex justify-center gap-2">
           <Badge variant="type">{poem.type}</Badge>
