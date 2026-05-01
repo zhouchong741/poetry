@@ -45,13 +45,13 @@ export default async function PoemPage({ params }: { params: Promise<{ poemId: s
       </header>
 
       <section
-        className="relative mb-8 overflow-hidden rounded-lg bg-white p-6 shadow-sm dark:bg-paper-dark"
+        className={`relative mb-8 overflow-hidden rounded-lg shadow-sm ${poem.image ? 'bg-transparent' : 'bg-white dark:bg-paper-dark'}`}
         style={
           poem.image
             ? {
                 backgroundImage: `url(${poem.image})`,
                 backgroundPosition: 'center',
-                backgroundSize: 'cover',
+                backgroundSize: '100% 100%',
               }
             : undefined
         }
