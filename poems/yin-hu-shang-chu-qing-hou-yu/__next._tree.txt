@@ -1,2 +1,3 @@
-:HL["/poetry/_next/static/chunks/14m40f~1g~k5t.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"yin-hu-shang-chu-qing-hou-yu","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"vp30HUmQStyFFZXzmg117"}
+:HL["/poetry/_next/static/chunks/11cp4w6f_5ow1.css","style"]
+:HL["/poetry/images/poems/yin-hu-shang-chu-qing-hou-yu.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"yin-hu-shang-chu-qing-hou-yu","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"azXqzrssXtNsdjNFy-Uza"}
