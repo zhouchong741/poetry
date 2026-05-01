@@ -48,6 +48,8 @@
 /* Override dark: variants for custom theme colors (Tailwind v4 hardcodes these too) */
 .dark .dark\:bg-paper-dark { background-color: var(--color-paper-dark); }
 .dark .dark\:bg-paper { background-color: var(--color-paper); }
+.dark .dark\:text-zinc-200 { color: #e4e4e7; }
+.dark .dark\:text-zinc-100 { color: #f4f4f5; }
 
 * {
   box-sizing: border-box;
