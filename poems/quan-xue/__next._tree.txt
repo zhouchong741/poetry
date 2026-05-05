@@ -1,3 +1,2 @@
-:HL["/poetry/_next/static/chunks/11cp4w6f_5ow1.css","style"]
-:HL["/poetry/images/poems/quan-xue.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"quan-xue","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"azXqzrssXtNsdjNFy-Uza"}
+:HL["/poetry/_next/static/chunks/0fjod41z.2644.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":28,"slots":{"children":{"name":"poems","param":null,"prefetchHints":8,"slots":{"children":{"name":"poemId","param":{"type":"d","key":"quan-xue","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"C11Cdhyv7fS-GbRsUwxEg"}

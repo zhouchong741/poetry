@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fdynasty\u002F[dynastyId]","\u002Fgrade\u002F[gradeId]","\u002Fpoems\u002F[poemId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
