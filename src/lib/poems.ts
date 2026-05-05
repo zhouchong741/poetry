@@ -1,6 +1,6 @@
 import poemsData from '@/data/poems.json';
 import type { Poem, GradeMeta, DynastyMeta } from '@/types/poem';
-import { GRADES, DYNASTIES } from '@/lib/constants';
+import { GRADES, DYNASTIES, DYNASTY_PAGE_SIZE } from '@/lib/constants';
 
 const poems = poemsData as Poem[];
 
@@ -18,6 +18,24 @@ export function getPoemsByGrade(grade: number): Poem[] {
 
 export function getPoemsByDynasty(dynastyLabel: string): Poem[] {
   return poems.filter((p) => p.dynasty === dynastyLabel);
+}
+
+export function getPoemsByDynastyPage(
+  dynastyLabel: string,
+  pageNumber: number,
+  pageSize = DYNASTY_PAGE_SIZE,
+) {
+  const dynastyPoems = getPoemsByDynasty(dynastyLabel);
+  const totalPages = Math.max(1, Math.ceil(dynastyPoems.length / pageSize));
+  const currentPage = Math.min(Math.max(pageNumber, 1), totalPages);
+  const start = (currentPage - 1) * pageSize;
+
+  return {
+    poems: dynastyPoems.slice(start, start + pageSize),
+    totalPoems: dynastyPoems.length,
+    totalPages,
+    currentPage,
+  };
 }
 
 export function getPoemsByType(type: string): Poem[] {

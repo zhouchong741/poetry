@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { getPoemById, getAllPoems } from '@/lib/poems';
 import BackButton from '@/components/ui/BackButton';
 import Badge from '@/components/ui/Badge';
@@ -49,9 +50,13 @@ export default async function PoemPage({ params }: { params: Promise<{ poemId: s
       >
         {poem.image && (
           <>
-            <img
+            <Image
               src={poem.image}
               alt=""
+              fill
+              unoptimized
+              priority
+              sizes="(min-width: 768px) 768px, 100vw"
               className="absolute inset-0 h-full w-full object-cover"
               style={{ transform: 'scale(1.15)' }}
               aria-hidden="true"

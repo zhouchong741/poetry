@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import ThemeProvider from '@/components/ThemeProvider';
 import { SITE_TITLE, SITE_DESCRIPTION } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -13,6 +12,20 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
 };
 
+const themeInitScript = `
+(() => {
+  try {
+    const stored = localStorage.getItem('theme');
+    const theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const root = document.documentElement;
+    root.classList.toggle('dark', theme === 'dark');
+    root.style.colorScheme = theme;
+  } catch (_) {}
+})();
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,14 +33,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className="h-full" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body className="min-h-full flex flex-col">
-        <ThemeProvider>
-          <Header />
-          <main className="flex-1">
-            {children}
-          </main>
-          <Footer />
-        </ThemeProvider>
+        <Header />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

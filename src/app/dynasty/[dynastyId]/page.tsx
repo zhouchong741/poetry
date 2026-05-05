@@ -1,8 +1,7 @@
 import { notFound } from 'next/navigation';
-import { getPoemsByDynasty, getDynasties } from '@/lib/poems';
+import { getPoemsByDynastyPage, getDynasties } from '@/lib/poems';
 import { DYNASTY_ID_MAP } from '@/lib/constants';
-import PoemCard from '@/components/poem/PoemCard';
-import BackButton from '@/components/ui/BackButton';
+import DynastyPoemPage from '@/components/dynasty/DynastyPoemPage';
 
 export async function generateStaticParams() {
   return getDynasties().map((d) => ({ dynastyId: d.id }));
@@ -13,28 +12,16 @@ export default async function DynastyPage({ params }: { params: Promise<{ dynast
   const label = DYNASTY_ID_MAP[dynastyId];
   if (!label) notFound();
 
-  const poems = getPoemsByDynasty(label);
+  const { poems, totalPoems, totalPages, currentPage } = getPoemsByDynastyPage(label, 1);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
-      <div className="mb-6">
-        <BackButton />
-      </div>
-
-      <h1 className="mb-1 text-2xl font-bold text-ink">{label}</h1>
-      <p className="mb-6 text-sm text-zinc-500 dark:text-zinc-400">
-        共收录 {poems.length} 首
-      </p>
-
-      {poems.length === 0 ? (
-        <p className="py-12 text-center text-zinc-500 dark:text-zinc-400">该朝代暂无收录古诗</p>
-      ) : (
-        <div className="space-y-3">
-          {poems.map((poem) => (
-            <PoemCard key={poem.id} poem={poem} />
-          ))}
-        </div>
-      )}
-    </div>
+    <DynastyPoemPage
+      dynastyId={dynastyId}
+      label={label}
+      poems={poems}
+      totalPoems={totalPoems}
+      totalPages={totalPages}
+      currentPage={currentPage}
+    />
   );
 }

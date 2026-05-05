@@ -53,3 +53,6 @@ export const GRADE_COLORS: Record<number, string> = {
 
 export const SITE_TITLE = '古诗文学习';
 export const SITE_DESCRIPTION = '中国中小学生必备古诗文学习平台，覆盖一至高三部编版必背古诗文。';
+export const SITE_BASE_PATH = '/poetry';
+export const SEARCH_INDEX_PATH = `${SITE_BASE_PATH}/search-index.json`;
+export const DYNASTY_PAGE_SIZE = 24;

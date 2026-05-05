@@ -24,6 +24,11 @@ export interface Poem {
   image?: string;
 }
 
+export type PoemPreview = Pick<
+  Poem,
+  'id' | 'title' | 'author' | 'dynasty' | 'type' | 'isRequired' | 'text'
+>;
+
 export interface GradeMeta {
   id: number;
   label: string;

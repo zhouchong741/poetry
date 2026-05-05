@@ -1,4 +1,4 @@
-import type { Poem } from '@/types/poem';
+import type { PoemPreview } from '@/types/poem';
 
 export function slugify(text: string): string {
   return text
@@ -7,9 +7,12 @@ export function slugify(text: string): string {
     .replace(/^-|-$/g, '');
 }
 
-export function searchPoems(poems: Poem[], query: string): Poem[] {
+export function searchPoems<T extends Pick<PoemPreview, 'title' | 'author' | 'text'>>(
+  poems: readonly T[],
+  query: string,
+): T[] {
   const q = query.trim().toLowerCase();
-  if (!q) return poems;
+  if (!q) return [...poems];
 
   const scored = poems.map((poem) => {
     let score = 0;

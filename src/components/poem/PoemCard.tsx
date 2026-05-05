@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import type { Poem } from '@/types/poem';
+import type { PoemPreview } from '@/types/poem';
 import Badge from '@/components/ui/Badge';
 import { displayDynasty } from '@/lib/utils';
 
-export default function PoemCard({ poem }: { poem: Poem }) {
+export default function PoemCard({ poem }: { poem: PoemPreview }) {
   const excerpt = poem.text.slice(0, 2).join('');
 
   return (
